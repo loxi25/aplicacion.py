@@ -10,7 +10,7 @@ ventana_juego.geometry("800x700")
 
 ventana_juego.resizable(0,0)
 
-ventana_juego.config(bg="grey")
+ventana_juego.config(bg="gray")
 
 def nacimiento():
     global toplevel_nacimiento
@@ -177,9 +177,9 @@ lb_logo.place(x=300,y=10)
 
 
 
-titulo = Label(ventana_juego, text="io")
-titulo.config(bg = "grey",fg="white", font=("Helvetica", 20))
-titulo.place(x=200,y=10)
+titulo = Label(ventana_juego, text="soy oscar sanchez \n tengo 16 años y soy yo")
+titulo.config(bg = "grey",fg="white", font=("Helvetica", 10))
+titulo.place(x=150,y=10)
 
 
 frame_1 = Button(ventana_juego)
